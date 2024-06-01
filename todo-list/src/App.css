@@ -1,0 +1,74 @@
+html{
+  scroll-behavior: smooth;
+}
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+
+input[type="text"] {
+  padding: 20px;
+  width: 300px;
+  margin: 20px 0;
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+  background-color: #feffff;
+  color:black;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: #e0fd01;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+li span {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+select {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.App{
+  max-width: 550px;
+  margin: auto;
+  color: aliceblue;
+}
